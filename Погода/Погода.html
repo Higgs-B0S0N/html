@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Погода</title>
+    <style>
+        div {
+            color: white ;
+            margin: 5px;
+            display: inline-block;
+        }
+        section {
+            width: 500px;
+            margin: auto;
+        }
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td {
+            background: #4169E1;
+        }
+        th {
+            background: #4169E1;
+        }
+        tr:nth-child(3) {
+            text-align: center;
+        }
+        .cent {
+            padding: 40px 10px 40px 10px;
+        }
+        .first {
+            padding: 40px;
+        }
+        </style>
+</head>
+<body>
+    <section>
+    <div>
+    <table>
+        <tr><th class="first">ВТ</th></tr>
+        <tr><td class="cent"><img src="weather-clear.png"></td></tr>
+        <tr><td class="first">Солнечно</td></tr>
+        </table>
+    </div>
+    </table>
+    <div>
+        <table>
+            <tr><th class="first">СР</th></tr>
+            <tr><td class="cent"><img src="weather-overcast.png"></td></tr>
+            <tr><td class="first">Облачно</td></tr>
+        </table>
+    </div>
+    <div>
+        <table>
+                <tr><th class="first">ЧТ</th></tr>
+                <tr><td class="cent"><img src="weather-showers.png"></td></tr>
+                <tr><td class="first">Дождливо</td></tr>
+        </table>
+    </div>
+</section>
+</body>
+</html>

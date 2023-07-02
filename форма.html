@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <style>
+        body {
+            background: rgb(28, 28, 112);
+            color: rgb(176, 175, 233);
+        }
+        div {
+            margin: auto;
+            width: 400px;
+            background: rgb(49, 49, 211);
+            padding: 30px;
+        }
+        td:nth-child(1) {
+            text-align: right;
+        }
+        input {
+            background: rgb(2, 2, 112);
+            color: white;
+            width: 300px;
+        }
+        textarea{
+            background:  rgb(2, 2, 112);
+            overflow-y: scroll;
+            width: 300px;
+            color: white;
+            height: 200px;
+        }
+        .button {
+            color: rgb(49, 49, 211);
+            font-weight: 600;
+            width: 100px;
+        }
+        .shadow {
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        }
+    
+    </style>
+</head>
+<body>
+   <div class="shadow">
+    <table>
+       <tr><td>Имя</td><td><input></td></tr>
+       <tr><td>Фамилия</td><td><input></td></tr>
+       <tr><td>Email</td><td><input></td></tr>
+       <tr><td>Сообщение</td><td><textarea></textarea></td></tr>
+       <tr><td></td><td><input class="button" type="submit" value="ОТПРАВИТЬ"></td></tr>
+   </table> 
+</div>
+</body>
+</html>
